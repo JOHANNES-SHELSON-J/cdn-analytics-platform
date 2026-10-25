@@ -1,0 +1,33 @@
+# Datasets
+data/
+*.parquet
+
+# Python virtual environments
+cdn_venv/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+
+# Credentials and sensitive configuration
+.env
+.env.*
+.aws/
+.snowflake/
+credentials
+*.pem
+*.key
+*.p8
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
